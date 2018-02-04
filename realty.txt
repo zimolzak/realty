@@ -1,0 +1,9 @@
+price      sqft        bedrooms   addr                year        type
+750        2234        3          2243_southgate      1950        house
+580        1944        3          1921_canterbury     NA          house
+499.5      2671        3          1906_woodbury       2004        townhouse
+500        2778        4          1804_staffordshire  1998        townhouse
+400        2230        3          1515_oakdale        2004        townhouse
+437.5      2561        3          4715_san_jacinto    2007        townhouse
+595        2779        3          1901_calumet        2008        townhouse
+429        2336        3          4916_jackson        2005        townhouse
