@@ -1,8 +1,8 @@
-Rplots.pdf : plots.R realty2.csv
+Rplots.pdf : plots.R realty.csv
 	Rscript plots.R
 
-realty2.csv : realty.txt txt2csv.pl
-	./txt2csv.pl realty.txt > realty2.csv
+realty.csv : realty.txt txt2csv.pl
+	./txt2csv.pl realty.txt > realty.csv
 
 clean :
-	rm -f Rplots.pdf realty2.csv
+	rm -f Rplots.pdf realty.csv
