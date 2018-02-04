@@ -1,7 +1,8 @@
 #!/usr/bin/perl -w
 use strict;
 while(<>){
-    s/ +/,/g;
+    chomp;
+    s/[ \t]+/,/g;
     s/_/ /g;
-    print;
+    print "$_\n";
 }
